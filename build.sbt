@@ -18,3 +18,5 @@ testOptions in Test ++= Seq(
   Tests.Argument(TestFrameworks.ScalaTest, "-oD"),
   Tests.Argument(TestFrameworks.ScalaTest, "-C", "ru.yandex.qatools.allure.scalatest.AllureReporter")
 )
+
+parallelExecution in ThisBuild := false

@@ -11,4 +11,8 @@ class StackSpecFake extends FlatSpec {
   "Alala" should "aa" in {
     fail("42")
   }
+
+  "Alala" should "bb" in {
+    fail("24")
+  }
 }
